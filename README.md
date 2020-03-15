@@ -21,9 +21,9 @@ The following steps will make you run your spark cluster's containers.
 
 * Docker installed
 
-* Docker compose  installed
+* Docker compose installed
 
-* A spark Application Jar to play with(Optional)
+* A spark Application Jar to play with (Optional)
 
 ## Build the images
 
@@ -32,7 +32,6 @@ The first step to deploy the cluster will be the build of the custom images, the
 The executions is as simple as the following steps:
 
 ```sh
-chmod +x build-images.sh
 ./build-images.sh
 ```
 
